@@ -1,15 +1,15 @@
 import './App.css';
 // import React, {useState} from 'react';
-import { Routes, Route, useNavigate } from "react-router-dom"
+// import { Routes, Route, useNavigate } from "react-router-dom"
 
 
 function App() {
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
 
 
   return (
     <div className="App">
-    <Routes>
+    {/* <Routes>
     
       <Route path='*' element={
         <div>
@@ -17,7 +17,7 @@ function App() {
           <button className='search-page' onClick={() => navigate('/home')} >Back to Search Page</button>
         </div>
       } />
-    </Routes>
+    </Routes> */}
   </div>
   );
 }
