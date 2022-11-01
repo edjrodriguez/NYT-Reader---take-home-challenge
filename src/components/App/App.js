@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className="App">
       <Routes>
-        <Route exact path='/home' element={
+        <Route exact path='/' element={
           <>
             <SearchBar
             />
@@ -34,7 +34,7 @@ const App = () => {
         <Route path='*' element={
           <div>
             <h1 className='not-found'>404: Not found</h1>
-            <button className='search-page' onClick={() => navigate('/home')} >Back to Search Page</button>
+            <button className='search-page' onClick={() => navigate('/')} >Back to Search Page</button>
           </div>
         } />
       </Routes>

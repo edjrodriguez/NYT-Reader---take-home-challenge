@@ -4,8 +4,6 @@ import "./HeadlineCard.css"
 
 const HeadlineCard = ({title, publishDate, byline}) => {
     // const navigate = useNavigate()
-
-
     return (
         <div className='headline-card'>
             <h1>{title}</h1>

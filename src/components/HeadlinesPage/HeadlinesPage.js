@@ -3,7 +3,6 @@ import React from 'react';
 import HeadlineCard from '../HeadlineCard/HeadlineCard';
 import { v4 as uuidV4 } from "uuid";
 
-
 const HeadlinesPage = ({ data }) => {
     console.log(data)
     const headlines = data.results.map(result => {
