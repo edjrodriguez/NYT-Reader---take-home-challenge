@@ -10,5 +10,4 @@ const HeadlinesPage = () => {
     )
 }
 
-
 export default HeadlinesPage
