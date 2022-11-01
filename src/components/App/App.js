@@ -1,23 +1,31 @@
 import './App.css';
-// import React, {useState} from 'react';
-// import { Routes, Route, useNavigate } from "react-router-dom"
+import React, {useState} from 'react';
+import { Routes, Route, useNavigate } from "react-router-dom"
+import SearchBar from '../SearchBar/SearchBar';
+import HeadlinesPage from '../HeadlinesPage/HeadlinesPage';
 
 
-function App() {
-  // const navigate = useNavigate()
+const App = () => {
+  const navigate = useNavigate()
 
 
   return (
     <div className="App">
-    {/* <Routes>
-    
+    <Routes>
+    <Route exact path='/home' element={
+          <>
+            <SearchBar
+            />
+            <HeadlinesPage />
+          </>
+        } />
       <Route path='*' element={
         <div>
           <h1 className='not-found'>404: Not found</h1>
           <button className='search-page' onClick={() => navigate('/home')} >Back to Search Page</button>
         </div>
       } />
-    </Routes> */}
+    </Routes>
   </div>
   );
 }
