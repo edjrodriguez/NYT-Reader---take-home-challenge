@@ -1,11 +1,18 @@
 import React from 'react';
+import "./HeadlineCard.css"
+// import { useNavigate } from "react-router-dom"
 
-const HeadlineCard = () => {
+const HeadlineCard = ({title, publishDate, byline}) => {
+    // const navigate = useNavigate()
+
 
     return (
-        <>
-            <h1>This is a headline</h1>
-        </>
+        <div className='headline-card'>
+            <h1>{title}</h1>
+            <h3>{byline}</h3>
+            <p>Published: {publishDate}</p>
+            <button>Read Full Article</button>
+        </div>
     )
 }
 
