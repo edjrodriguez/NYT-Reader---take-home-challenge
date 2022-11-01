@@ -4,10 +4,10 @@ import HeadlineCard from '../HeadlineCard/HeadlineCard';
 
 
 const HeadlinesPage = () => {
-    
-    return(
+
+    return (
         <HeadlineCard
-        
+
         />
     )
 }

@@ -1,15 +1,15 @@
 import React from 'react';
-import {useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import ArticleCard from '../ArticleCard/ArticleCard';
 // import React, {useState} from 'react';
 
 const ArticlePage = () => {
     const navigate = useNavigate()
 
-    return(
+    return (
         <>
             <ArticleCard />
-            <button onClick={()=> navigate('/home')}> Back to Headlines</button>
+            <button onClick={() => navigate('/home')}> Back to Headlines</button>
         </>
     )
 }

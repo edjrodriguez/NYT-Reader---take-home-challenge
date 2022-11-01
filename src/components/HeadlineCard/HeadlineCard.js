@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeadlineCard = () => {
 
-    return(
+    return (
         <>
             <h1>This is a headline</h1>
         </>

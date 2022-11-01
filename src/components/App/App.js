@@ -1,15 +1,20 @@
 import './App.css';
-import React from 'react';
-// import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Routes, Route, useNavigate } from "react-router-dom"
 import SearchBar from '../SearchBar/SearchBar';
 import HeadlinesPage from '../HeadlinesPage/HeadlinesPage';
 import ArticlePage from '../ArticlePage/ArticlePage';
-
+import { fetchHeadlines } from '../../apiCalls';
 
 const App = () => {
   const navigate = useNavigate()
+  const [ topStories, setTopStories ] = useState({})
 
+useEffect(()=>{
+  fetchHeadlines()
+  .then(data => setTopStories(data)
+  )
+}, [])
 
   return (
     <div className="App">
@@ -22,7 +27,7 @@ const App = () => {
           </>
         } />
         <Route exact path='/details' element={
-            <ArticlePage />
+          <ArticlePage />
         } />
         <Route path='*' element={
           <div>
