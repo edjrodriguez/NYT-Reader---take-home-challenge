@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ArticleCard = () => {
+const ArticleCard = ({moreDetails}) => {
 
     return (
         <>
-            <h1>article deets lorem ipsum huzzah! </h1>
+            <h1>{moreDetails.title}</h1>
             <p>An image will be here</p>
         </>
     )

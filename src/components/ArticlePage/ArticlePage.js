@@ -2,12 +2,14 @@ import React from 'react';
 import { useNavigate } from "react-router-dom"
 import ArticleCard from '../ArticleCard/ArticleCard';
 
-const ArticlePage = () => {
+const ArticlePage = ({ moreDetails }) => {
     const navigate = useNavigate()
 
     return (
         <>
-            <ArticleCard />
+            <ArticleCard
+                moreDetails={moreDetails}
+            />
             <button onClick={() => navigate('/home')}> Back to Headlines</button>
         </>
     )
