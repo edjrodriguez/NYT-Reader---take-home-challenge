@@ -1,7 +1,6 @@
 import React from 'react';
-import "./HeadlineCard.css"
 
-const HeadlineCard = ({ id, title, publishDate, byline, getMoreDetails }) => {
+const SearchedCard = ({ id, title, publishDate, byline, getMoreDetails }) => {
     return (
         <div className='headline-card'>
             <h1>{title}</h1>
@@ -12,4 +11,4 @@ const HeadlineCard = ({ id, title, publishDate, byline, getMoreDetails }) => {
     )
 }
 
-export default HeadlineCard
+export default SearchedCard
