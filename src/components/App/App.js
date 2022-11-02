@@ -9,6 +9,13 @@ import { fetchHeadlines } from '../../apiCalls';
 const App = () => {
   const navigate = useNavigate()
   const [ topStories, setTopStories ] = useState(null)
+  const [ moreDetails, setMoreDetails ] = useState(null)
+
+  const getMoreDetails = (id) => {
+    navigate('/article-details')
+    const articleDetails = topStories.results.find(result => result.short_url === id)
+    setMoreDetails(articleDetails)
+  }
 
   useEffect(() => {
     fetchHeadlines()
@@ -23,12 +30,18 @@ const App = () => {
           <>
             <SearchBar />
             {!topStories ? <h1>loading...</h1> :
-              <HeadlinesPage topStories={topStories}
+              <HeadlinesPage
+                topStories={topStories}
+                getMoreDetails={getMoreDetails}
               />}
           </>
         } />
-        <Route exact path='/details' element={
-          <ArticlePage />
+        <Route exact path='/article-details' element={
+          <>
+            {!moreDetails ? <h1>Loading... </h1> : <ArticlePage
+              moreDetails={moreDetails}
+            />}
+          </>
         } />
         <Route path='*' element={
           <div>
