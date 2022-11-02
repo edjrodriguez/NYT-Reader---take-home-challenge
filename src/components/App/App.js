@@ -14,9 +14,9 @@ const App = () => {
   const [ moreDetails, setMoreDetails ] = useState(null)
 
   const getMoreDetails = (id) => {
-    navigate('/article-details')
     const articleDetails = topStories.results.find(result => result.short_url === id)
     setMoreDetails(articleDetails)
+    navigate('/article-details')
   }
 
   const filterArticles = (userSearch) => {
