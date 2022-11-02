@@ -8,24 +8,23 @@ import { fetchHeadlines } from '../../apiCalls';
 
 const App = () => {
   const navigate = useNavigate()
-  const [ topStories, setTopStories ] = useState({})
+  const [ topStories, setTopStories ] = useState(null)
 
   useEffect(() => {
     fetchHeadlines()
       .then(data => setTopStories(data)
       )
-  }, [setTopStories])
+  }, [ setTopStories ])
 
   return (
     <div className="App">
       <Routes>
         <Route exact path='/' element={
           <>
-            <SearchBar
-            />
-            <HeadlinesPage
-              data={topStories}
-            />
+            <SearchBar />
+            {!topStories ? <h1>loading...</h1> :
+              <HeadlinesPage topStories={topStories}
+              />}
           </>
         } />
         <Route exact path='/details' element={
