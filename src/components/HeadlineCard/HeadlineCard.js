@@ -9,7 +9,7 @@ const HeadlineCard = ({title, publishDate, byline}) => {
             <h1>{title}</h1>
             <h3>{byline}</h3>
             <p>Published: {publishDate}</p>
-            <button>Read Full Article</button>
+            <button>More Details</button>
         </div>
     )
 }

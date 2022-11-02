@@ -3,9 +3,9 @@ import React from 'react';
 import HeadlineCard from '../HeadlineCard/HeadlineCard';
 import { v4 as uuidV4 } from "uuid";
 
-const HeadlinesPage = ({ data }) => {
-    console.log(data)
-    const headlines = data.results.map(result => {
+const HeadlinesPage = ({ topStories }) => {
+    console.log(topStories)
+    const headlines = topStories.results.map(result => {
         return (
             <HeadlineCard
                 key={uuidV4()}
