@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchedCard from '../../SearchedCard/SearchedCard';
+import SearchedCard from '../SearchedCard/SearchedCard';
 import { useNavigate } from "react-router-dom"
 import { v4 as uuidV4 } from "uuid";
 
