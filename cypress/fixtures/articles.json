@@ -128,7 +128,6 @@
                 }
             ],
             "short_url": "https://nyti.ms/3h68erN"
-        },
-    }
-
-// export default articleStub
+        }
+    ]
+}

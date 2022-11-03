@@ -16,7 +16,7 @@ const SearchBar = ({ filterArticles }) => {
     }
 
     return (
-        <div>
+        <div className='search-bar'>
             <form className='search-box' onSubmit={(event) => handleSubmit(event)}>
                 <input
                     placeholder='Search Articles'

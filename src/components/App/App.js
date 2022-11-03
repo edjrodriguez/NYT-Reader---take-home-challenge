@@ -65,8 +65,6 @@ const App = () => {
           </>
 
         } />
-
-
         <Route path='*' element={
           <div>
             <h1 className='not-found'>404: Not found</h1>
