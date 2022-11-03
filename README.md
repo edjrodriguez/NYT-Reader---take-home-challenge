@@ -1,14 +1,14 @@
 # NY Times News Reader
 
-## Abstract:
-    * Demonstrate mastery of React and FE best practices
-    * Work within an 8 hour time constraint to deliver a minimum viable product with clean and well thought out code
+## Abstract
+   - Demonstrate mastery of React and FE best practices
+   - Work within an 8 hour time constraint to deliver a minimum viable product with clean and well thought out code
 
-    MVP: 
-        *   A list of articles
-        *   A “detailed” view for each article (as opposed to summary/list view)
-        *   Articles in the list must link to the detailed article view you create
-        *   Some sort of search, filter, OR sort
+   ###MVP 
+       - A list of articles
+       - A “detailed” view for each article (as opposed to summary/list view)
+       - Articles in the list must link to the detailed article view you create
+       - Some sort of search, filter, OR sort
 
 ## Technologies Used
 - React/JSX
