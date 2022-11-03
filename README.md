@@ -4,7 +4,7 @@
    - Demonstrate mastery of React and Front End best practices
    - Work within an 8 hour time constraint to deliver a minimum viable product with clean and well thought out code
 
-   ### MVP 
+   MVP - must show
        - A list of articles
        - A “detailed” view for each article (as opposed to summary/list view)
        - Articles in the list must link to the detailed article view you create
