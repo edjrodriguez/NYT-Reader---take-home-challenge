@@ -5,15 +5,15 @@ const ArticlePage = ({ moreDetails }) => {
     const image = moreDetails.multimedia[ 0 ].url
     const navigate = useNavigate()
     return (
-        <>
-            <button onClick={() => navigate('/')}> Back to Headlines</button>
+        <div className='article-details'>
+            <button className='back-button' onClick={() => navigate('/')}> Back to Headlines</button>
             <h1>{moreDetails.title}</h1>
-            <h3>{moreDetails.byline}</h3>
+            <h2>{moreDetails.byline}</h2>
             <p>{moreDetails.published_date}</p>
             <img src={`${image}`} alt="from this NYT article" />
-            <h4>{moreDetails.abstract}</h4>
+            <h3>{moreDetails.abstract}</h3>
             <a href={moreDetails.short_url}>Read full article</a>
-        </>
+        </div>
     )
 }
 

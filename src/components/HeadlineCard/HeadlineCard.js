@@ -5,9 +5,9 @@ const HeadlineCard = ({ id, title, publishDate, byline, getMoreDetails }) => {
     return (
         <div className='headline-card'>
             <h1>{title}</h1>
-            <h3>{byline}</h3>
+            <h2>{byline}</h2>
             <p>Published: {publishDate}</p>
-            <button onClick={() => getMoreDetails(id)}>More Details</button>
+            <button className='more-details-button' onClick={() => getMoreDetails(id)}>More Details</button>
         </div>
     )
 }
