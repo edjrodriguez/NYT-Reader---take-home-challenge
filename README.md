@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# NY Times News Reader
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Core Functionality and requirements:
+    * Demonstrate mastery of React and FE best practices
+    * Work within an 8 hour time constraint to deliver a minimum viable product with clean and well thought out code
 
-## Available Scripts
+    MVP: 
+        *   A list of articles
+        *   A “detailed” view for each article (as opposed to summary/list view)
+        *   Articles in the list must link to the detailed article view you create
+        *   Some sort of search, filter, OR sort
 
-In the project directory, you can run:
+## Technologies Used
+- React/JSX
+- JavaScript
+- Postman
+- Cypress
+- fetch API 
+- GitHub & Git
 
-### `npm start`
+## Guided Motion Feature
+https://user-images.githubusercontent.com/100659793/199787034-b0d4e55c-3431-43ca-a2c3-d79c5cf5746f.mov
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Local Set-Up Instructions
+* clone down the repo by running `git clone git@github.com:edjrodriguez/NYT-Reader---take-home-challenge.git` in the terminal
+* run `npm install` in the terminal
+* run `npm start` in the terminal
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You will also need a need to sign-up/sign-in to the NYT developer site and establish an API key [here](https://developer.nytimes.com/get-started) and set-up an [env file](https://dev.to/anuradhasivasubramanian/5-things-to-remember-when-using-an-env-file-to-store-you-api-key-in-a-react-app-4f2o) within your cloned repo
 
-### `npm test`
+After creating your env file and setting up the process.env variable in the apiCalls.js file, you will need to restart the local server in your terminal for the .env file changes to take effect.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Additions 
+ * Cleaner desktop layout (currently designed for iPhone XR screen)
+ * Search and filter by category, facet, and section
 
-### `npm run build`
+## Members
+- Eddie Rodriguez [linkedin](https://www.linkedin.com/in/edward-rodriguez-1b497423b/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Links
+__________________________
+- [Project Spec](https://mod4.turing.edu/projects/take_home/take_home_fe)
+- [Project Board](https://github.com/users/edjrodriguez/projects/1/views/1)
+- [Wire Frame](https://www.figma.com/file/whEeOywZ65Cjjmblzlc2IG/New-York-Times-News-Reader?node-id=1%3A40)
