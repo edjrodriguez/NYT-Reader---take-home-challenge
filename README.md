@@ -1,7 +1,7 @@
 # NY Times News Reader
 
 ## Abstract
-   - Demonstrate mastery of React and FE best practices
+   - Demonstrate mastery of React and Front End best practices
    - Work within an 8 hour time constraint to deliver a minimum viable product with clean and well thought out code
 
    ###MVP 
