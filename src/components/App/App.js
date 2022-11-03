@@ -34,7 +34,7 @@ const App = () => {
   return (
     <div className="App">
       <Routes>
-        <Route exact path='/' element={
+        <Route path='/' element={
           <>
             <h1>New York Times - Today's Top Stories</h1>
             <SearchBar
@@ -47,7 +47,7 @@ const App = () => {
               />}
           </>
         } />
-        <Route exact path='/article-details' element={
+        <Route path='/article-details' element={
           <>
             <h1>From Today's Top Stories</h1>
             {!moreDetails ? <h1>Loading... </h1> : <ArticlePage

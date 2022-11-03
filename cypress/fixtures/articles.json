@@ -1,0 +1,134 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+    "section": "home",
+    "last_updated": "2022-11-03T11:24:20-04:00",
+    "num_results": 39,
+    "results": [
+        {
+            "section": "world",
+            "subsection": "middleeast",
+            "title": "Netanyahu Set to Seal Victory, Returning Him to Power Within Weeks",
+            "abstract": "After five elections in less than four years, Israel will have a stable government for the first time since 2019. But Benjamin Netanyahu’s coalition could test the constitutional framework and social fabric.",
+            "url": "https://www.nytimes.com/2022/11/03/world/middleeast/israel-netanyahu-election.html",
+            "uri": "nyt://article/31d78f70-f655-578b-887d-972988d3735c",
+            "byline": "By Patrick Kingsley",
+            "item_type": "Article",
+            "updated_date": "2022-11-03T10:47:50-04:00",
+            "created_date": "2022-11-03T06:42:29-04:00",
+            "published_date": "2022-11-03T06:42:29-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Elections",
+                "Palestinians",
+                "Right-Wing Extremism and Alt-Right"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Ben-Gvir, Itamar",
+                "Biden, Joseph R Jr",
+                "Netanyahu, Benjamin"
+            ],
+            "geo_facet": [
+                "Israel",
+                "West Bank"
+            ],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/03/world/03israel-1/merlin_215871963_eaffe097-4a4a-43b5-a3ea-a7ab476f2286-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1365,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Benjamin Netanyahu in Jerusalem on Tuesday. His return could stress some of his country’s diplomatic relations, most notably with the United States and with the Persian Gulf states with which Israel recently formed alliances.",
+                    "copyright": "Amit Elkayam for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/03/world/03israel-1/merlin_215871963_eaffe097-4a4a-43b5-a3ea-a7ab476f2286-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Benjamin Netanyahu in Jerusalem on Tuesday. His return could stress some of his country’s diplomatic relations, most notably with the United States and with the Persian Gulf states with which Israel recently formed alliances.",
+                    "copyright": "Amit Elkayam for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/03/world/03israel-1/03israel-1-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Benjamin Netanyahu in Jerusalem on Tuesday. His return could stress some of his country’s diplomatic relations, most notably with the United States and with the Persian Gulf states with which Israel recently formed alliances.",
+                    "copyright": "Amit Elkayam for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3NLfm9j"
+        },
+        {
+            "section": "us",
+            "subsection": "politics",
+            "title": "Biden Warns That ‘Big Lie’ Republicans Imperil American Democracy",
+            "abstract": "In a prime-time address, President Biden condemned election violence and voter intimidation just days before Tuesday’s midterm elections.",
+            "url": "https://www.nytimes.com/2022/11/02/us/politics/biden-speech-democracy-election.html",
+            "uri": "nyt://article/1b8f6edb-afba-5c17-9b63-45ee041348da",
+            "byline": "By Peter Baker",
+            "item_type": "Article",
+            "updated_date": "2022-11-03T10:12:04-04:00",
+            "created_date": "2022-11-02T18:27:10-04:00",
+            "published_date": "2022-11-02T18:27:10-04:00",
+            "material_type_facet": "",
+            "kicker": "",
+            "des_facet": [
+                "Midterm Elections (2022)",
+                "United States Politics and Government",
+                "Democracy (Theory and Philosophy)",
+                "Presidential Election of 2020",
+                "Storming of the US Capitol (Jan, 2021)",
+                "Speeches and Statements"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Biden, Joseph R Jr"
+            ],
+            "geo_facet": [],
+            "multimedia": [
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/02/multimedia/02midterm-live-header731-1-65b1/02midterm-live-header731-1-65b1-superJumbo.jpg",
+                    "format": "Super Jumbo",
+                    "height": 1366,
+                    "width": 2048,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Biden urged Americans to reject political violence and voter intimidation in his speech on Wednesday.",
+                    "copyright": "Pete Marovich for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/02/multimedia/02midterm-live-header731-1-65b1/02midterm-live-header731-1-65b1-threeByTwoSmallAt2X.jpg",
+                    "format": "threeByTwoSmallAt2X",
+                    "height": 400,
+                    "width": 600,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Biden urged Americans to reject political violence and voter intimidation in his speech on Wednesday.",
+                    "copyright": "Pete Marovich for The New York Times"
+                },
+                {
+                    "url": "https://static01.nyt.com/images/2022/11/02/multimedia/02midterm-live-header731-1-65b1/02midterm-live-header731-1-65b1-thumbLarge.jpg",
+                    "format": "Large Thumbnail",
+                    "height": 150,
+                    "width": 150,
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Biden urged Americans to reject political violence and voter intimidation in his speech on Wednesday.",
+                    "copyright": "Pete Marovich for The New York Times"
+                }
+            ],
+            "short_url": "https://nyti.ms/3h68erN"
+        },
+    }
+
+// export default articleStub
