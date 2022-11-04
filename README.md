@@ -4,11 +4,11 @@
    - Demonstrate mastery of React and Front End best practices
    - Work within an 8 hour time constraint to deliver a minimum viable product with clean and well thought out code
 
-## MVP
-    - A list of articles
-    - A “detailed” view for each article (as opposed to summary/list view)
-    - Articles in the list must link to the detailed article view you create
-    - Some sort of search, filter, OR sort
+### MVP
+ - A list of articles
+ - A “detailed” view for each article (as opposed to summary/list view)
+ - Articles in the list must link to the detailed article view you create
+ - Some sort of search, filter, OR sort
 
 ## Technologies Used
 - React/JSX
@@ -31,7 +31,7 @@ You will also need a need to sign-up/sign-in to the NYT developer site and estab
 After creating your env file and setting up the process.env variable in the apiCalls.js file, you will need to restart the local server in your terminal for the .env file changes to take effect.
 
 ## Future Additions 
- * Cleaner desktop layout (currently designed for iPhone XR screen)
+ * Viewable on desktop, tablet, and mobile
  * Search and filter by category, facet, and section
 
 ## Members
